@@ -33,6 +33,14 @@ limit 1;
 
 c. What product was ordered the most by customers in Germany?
 ```
-
+SELECT sum(Quantity) AS TotalOrders, ProductName
+FROM OrderDetails
+JOIN Orders ON OrderDetails.OrderID = Orders.OrderID
+JOIN Customers ON Orders.CustomerID = Customers.CustomerID
+JOIN Products ON OrderDetails.ProductID = Products.ProductID
+WHERE Customers.Country = 'Germany'
+GROUP BY OrderDetails.ProductID
+ORDER BY sum(OrderDetails.Quantity) DESC
+limit 1;
 ```
-Result: 
+Result: Boston Crab Meat was ordered the most by Customers in Germany at a total of 160 Orders! 
