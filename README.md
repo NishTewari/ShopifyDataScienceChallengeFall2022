@@ -43,4 +43,4 @@ GROUP BY OrderDetails.ProductID
 ORDER BY sum(OrderDetails.Quantity) DESC
 limit 1;
 ```
-Result: Boston Crab Meat was ordered the most by Customers in Germany at a total of 160 Orders! 
+[Result:](https://github.com/NishTewari/ShopifyDataScienceChallengeFall2022/blob/main/Shopify%20Data%20Science%20Challenge/Question%202%20-%20Part%203.png) Boston Crab Meat was ordered the most by Customers in Germany at a total of 160 Orders! 
