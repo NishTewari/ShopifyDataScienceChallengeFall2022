@@ -4,6 +4,7 @@ This repo is my submission for Shopify Data Science Intern Application for Fall 
 
 
 ## Question 1 
+Please follow along with the notebook for this question which can be found [here](https://github.com/NishTewari/ShopifyDataScienceChallengeFall2022/blob/main/Shopify%20Data%20Science%20Challenge/Question%201%20-%20Data%20Science%20Challenge.ipynb)
 ### Part A
 Think about what could be going wrong with our calculation. Think about a better way to evaluate this data. 
 
